@@ -19,10 +19,10 @@ twitter_info = ("Twitter", "N/A", 0)
 birthday = ("Birthday", 5, 22, 2006)
 
 #Interest Tracking (Sets)
-current_skills = {"Python basics", "HTML", "Problem solving", "Time management", "Photography"}
+current_skills = {"Python basics", "HTML", "Problem solving", "Time management", "Java"}
 skills_to_learn = {"JavaScript", "Data structures", "Git", "Web design", "Public speaking"}
-career_interests = {"Software development", "Web development", "Data science", "Game development"}
-hobbies = {"Gaming", "Photography", "Reading", "Soccer", "Music"}
+career_interests = {"Software development", "Game development"}
+hobbies = {"Gaming", "Music"}
 entertainment_backlog = {"One Piece", "Barry", "Life", "Incantation", "Memento"}
 
 # Organizational Mapping (dictionary key-value pairs)
