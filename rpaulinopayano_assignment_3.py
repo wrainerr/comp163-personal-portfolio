@@ -18,7 +18,7 @@ emergency_contact = ("Mom", "Ana Payano", "704-555-0199")
 home_address = ("456 Oak Street", "Durham, NC", 27704)
 instagram_info = ("Instagram", "@raynerr_p", 81)
 twitter_info = ("Twitter", "N/A", 0)
-birthday = ("Birthday", 5, 22, 2006)
+birthday = ("Birthday", 10, 12, 2007)
 
 
 #Interest Tracking (Sets)
