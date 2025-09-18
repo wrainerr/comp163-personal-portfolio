@@ -1,8 +1,8 @@
 # Personal Information Storage (Strings)
-full_name = "Jordan Smith"
-student_email = "jsmith@ncat.edu"
-hometown = "Charlotte, NC"
-graduation_semester = "Spring 2028"
+full_name = "Rayner Paulino-Payano"
+student_email = "rpaulinopayano@ncat.edu"
+hometown = "Durham, NC"
+graduation_semester = "Spring 2029"
 major = "Computer Science"
 
 # Academic Data Organization (Lists)
@@ -12,10 +12,10 @@ credit_hours = [3, 3, 3, 3]
 gpa_history = [3.2, 3.6, 3.4, 3.7]
 
 # Contact Information Storage (Tuples)
-emergency_contact = ("Mom", "Hannah Smith", "704-555-0199")
-home_address = ("456 Oak Street", "Charlotte, NC", 28202)
-instagram_info = ("Instagram", "@jordan_codes", 312)
-twitter_info = ("Twitter", "@jordandev", 127)
+emergency_contact = ("Mom", "Ana Payano", "704-555-0199")
+home_address = ("456 Oak Street", "Durham, NC", 27704)
+instagram_info = ("Instagram", "@raynerr_p", 81)
+twitter_info = ("Twitter", "N/A", 0)
 birthday = ("Birthday", 5, 22, 2006)
 
 #Interest Tracking (Sets)
