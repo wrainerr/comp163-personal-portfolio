@@ -1,41 +1,41 @@
 # Personal Information Storage (Strings)
-full_name = "Rayner Paulino-Payano"
-student_email = "rpaulinopayano@ncat.edu"
-hometown = "Durham, NC"
-graduation_semester = "Spring 2029"
+full_name = "Jordan Smith"
+student_email = "jsmith@ncat.edu"
+hometown = "Charlotte, NC"
+graduation_semester = "Spring 2028"
 major = "Computer Science"
 
 # Academic Data Organization (Lists)
-current_courses = ["COMP 163", "MATH 131", "ENG 100", "HIST 106", "GEEN 111", "FRST 101"]
-completed_courses = []
-credit_hours = [1, 1, 3, 3, 3, 4]
-gpa_history = []
+current_courses = ["COMP 163", "MATH 150", "ENG 101", "HIS 105"]
+completed_courses = ["Biology", "Chemistry", "Calculus", "Spanish II", "World History"]
+credit_hours = [3, 3, 3, 3]
+gpa_history = [3.2, 3.6, 3.4, 3.7]
 
 # Contact Information Storage (Tuples)
-emergency_contact = ("Mom", "Ana Payano", "704-555-0199")
-home_address = ("456 Oak Street", "Durham, NC", 27704)
-instagram_info = ("Instagram", "@raynerr_p", 81)
-twitter_info = ("Twitter", "N/A", 0)
+emergency_contact = ("Mom", "Hannah Smith", "704-555-0199")
+home_address = ("456 Oak Street", "Charlotte, NC", 28202)
+instagram_info = ("Instagram", "@jordan_codes", 312)
+twitter_info = ("Twitter", "@jordandev", 127)
 birthday = ("Birthday", 5, 22, 2006)
 
 #Interest Tracking (Sets)
-current_skills = {"Python basics", "HTML", "Problem solving", "Time management", "Java"}
+current_skills = {"Python basics", "HTML", "Problem solving", "Time management", "Photography"}
 skills_to_learn = {"JavaScript", "Data structures", "Git", "Web design", "Public speaking"}
-career_interests = {"Software development", "Game development"}
-hobbies = {"Gaming", "Music"}
+career_interests = {"Software development", "Web development", "Data science", "Game development"}
+hobbies = {"Gaming", "Photography", "Reading", "Soccer", "Music"}
 entertainment_backlog = {"One Piece", "Barry", "Life", "Incantation", "Memento"}
 
 # Organizational Mapping (dictionary key-value pairs)
 course_credits = {"COMP 163": 3, "MATH 150": 3, "ENG 101": 3, "HIS 105": 3}
 course_professors = {"COMP 163": "Prof. Rhodes", "MATH 150": "Dr. Lee", "ENG 101": "Dr. Martinez", "HIS 105": "Dr. Brown"}
 course_rooms = {"COMP 163": "M-Eric 300", "MATH 150": "Marteena 201", "ENG 101": "Crosby 121", "HIS 105": "Crosby 210"}
-monthly_budget = {"Food": 350, "Entertainment": 100, "Books": 225, "Transportation": 200}
-study_hours_per_subject = {"Programming": 8, "Math": 10, "English": 2, "History": 1}
+monthly_budget = {"Food": 450, "Entertainment": 200, "Books": 125, "Transportation": 100}
+study_hours_per_subject = {"Programming": 10, "Math": 8, "English": 4, "History": 3}
 contact_directory = {"Mom": "704-555-0199", "Roommate": "336-555-7821", "Academic Advisor": "336-334-5000"}
 
 #Required Calculations
 total_current_credits = sum(credit_hours)
-# commented out because im a freshman: cumulative_gpa = round(sum(gpa_history) / (len(gpa_history)), 2)
+cumulative_gpa = round(sum(gpa_history) / (len(gpa_history)), 2)
 count_completed_courses = len(completed_courses)
 total_weekly_study = sum(study_hours_per_subject.values())
 academic_load = sum(credit_hours) + total_weekly_study
@@ -62,7 +62,7 @@ print(f"Major: {major}")
 print()
 print("=== ACADEMIC PROFILE ===")
 print(f"Current Semester: {total_current_credits} credits across {len(current_courses)} courses")
-# commented out because im a freshman: print(f"Cumulative GPA: {cumulative_gpa}")
+print(f"Cumulative GPA: {cumulative_gpa}")
 print(f"Weekly Study Time: {total_weekly_study} hours")
 print(f"Academic Investment: ${study_cost_per_hour} per study hour")
 print()
