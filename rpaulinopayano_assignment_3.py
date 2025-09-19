@@ -56,7 +56,7 @@ current_skills_count = len(current_skills)
 learning_skills_count = len(skills_to_learn)
 contact_directory_size = len(contact_directory)
 entertainment_backlog_size = len(entertainment_backlog)
-academic_assessment = 1
+academic_assessment = academic_load
 
 
 # formatted output
